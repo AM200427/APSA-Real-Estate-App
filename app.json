@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "APSA",
+    "slug": "TestApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.abraham20047.APSA",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC5EHPIEb_KCkW4U_jmIIL4DYyzu8XP0CQ"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abraham20047.APSA",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC5EHPIEb_KCkW4U_jmIIL4DYyzu8XP0CQ"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76177f03-1ef9-44bc-ac03-327b5e0df64a"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "@rnmapbox/maps"
+    ]
+  }
+}
